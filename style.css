@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    max-width: 100vw;
+    max-width: 100%;
     text-align: center;
     background: #81bcd8;
     margin: 0;
@@ -121,11 +121,40 @@ p {
     padding: 50px 20px;
 }
 .link {
-    display:flex;
-    margin: 0;
-    flex-wrap: wrap;
-    padding: 5px;
-    float: left;
+    width: 25em;
+    margin: 0 auto;
+    background: #ddd;
+}
+.link img {
+    max-width: 25em;
+    height: auto;
+}
+.link a {
+    display: block;
+    width: 300px;
+    padding: 20px 0;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 200% auto;
+    background-image: linear-gradient(
+        to right,
+        #42a8a3 0%,
+        #a48c61 50%,
+        #000000 50%,
+        #000000 100%
+    );
+    box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
+    transition: background-position ease 0.4s;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+}
+.link a:hover {
+    background-position: 0 0;
 }
 .obi {
     max-width: 350px;
@@ -179,6 +208,7 @@ footer {
     width: 70%;
 }
 .palagraph1 {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
