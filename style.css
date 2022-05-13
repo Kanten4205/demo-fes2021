@@ -209,7 +209,7 @@ footer {
 }
 .palagraph1 {
     width: 80%;
-    display: flex;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
