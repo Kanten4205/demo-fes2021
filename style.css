@@ -214,3 +214,13 @@ footer {
     align-items: center;
     text-align: center;
 }
+@media (min-width: 700px) {
+    .poster {
+        width: 90%;
+    }
+}
+@media (max-width: 699px) {
+    .poster {
+        width: 100%;
+    }
+}
