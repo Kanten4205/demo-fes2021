@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     max-width: 100%;
     text-align: center;
-    background: #81bcd8;
+    background: black;
     margin: 0;
     padding: 0;
 }
@@ -213,6 +213,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-color: #ffffff;
 }
 @media (min-width: 700px) {
     .poster {
