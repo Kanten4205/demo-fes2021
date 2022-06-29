@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     max-width: 100%;
     text-align: center;
-    background: black;
+    background: black;;
     margin: 0;
     padding: 0;
 }
@@ -14,8 +14,6 @@ br {
 .top-header {
     z-index: 10;
     box-sizing: border-box;
-    background: rgba(255, 255, 255, 0.6);
-    position: fixed;
     justify-content: space-between;
     transition: .5s;
     width: 100%;
@@ -62,15 +60,15 @@ br {
 }
 .item a{
     display: block;
-    color: #333;
+    color: white;
     text-decoration: none;
     padding: 20px 10px;
     transition: background 1s;
     margin-top: auto;
 }
 .item a:hover {
-    background-color:#333;
-    color: white;
+    background-color:white;
+    color: black;
 }
 .stars {
     max-height: 2000px;
@@ -208,12 +206,12 @@ footer {
     width: 70%;
 }
 .palagraph1 {
+    color: white;
     width: 80%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #ffffff;
 }
 @media (min-width: 700px) {
     .poster {
