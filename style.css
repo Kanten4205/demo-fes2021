@@ -26,11 +26,16 @@ br {
 @media (min-width: 700px) {
     .logo {
         padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color:#fff;
     }
 }
 @media (max-width: 699px) {
     .logo {
         display: flex;
+        color:#fff;
         align-items: center;
         justify-content: center;
         height: 40px;
